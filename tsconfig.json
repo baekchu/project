@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "config/firebase.ts", "components/home/CategoryCard.tsx", "utils/motion.ts", "context/StateContext.jsx", "config/firebaseFunctions.tsx", "utils/Split2.min.js", "components/MainPage/Header/index.jsx", "utils/Split3.min.js", "utils/Split3.min.js", "components/hooks/useLocoScroll.js", "components/hooks/useLocoScroll.js", "components/MainPage/Loader/index.tsx", "app/(search)/search/page.tsx", "app/(search)/search/page.tsx", "components/TiptabEditor/Tiptab.jsx", "components/inputs/kim/Sortable.jsx", "components/inputs/kim/ImageDnd.jsx"],
+  "exclude": ["node_modules"]
+}
